@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+/* You can add global styles to this file, and also import other style files */
+
+.container-login{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    margin: -20px 0 50px;
+    
+}
+
+.form-login {
+  display: block;
+  width: 50%;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   flex-direction: column;
+  margin: 0 auto;
+
+}
+
+
+
+.h1-login {
+	font-weight: bold;
+	margin: 0;
+}
+
+
+.form-login button {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+.form-login button:active {
+	transform: scale(0.95);
+}
+
+.form-login button:focus {
+	outline: none;
+}
+
+.form-login button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+
+.form-login input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+
+

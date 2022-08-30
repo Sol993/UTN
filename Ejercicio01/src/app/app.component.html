@@ -1,0 +1,22 @@
+<router-outlet></router-outlet>
+
+<div class="container">
+    <h2>Ejercicio sumas de edades!</h2>
+        <div class="form-group">
+            <label  class="form-label"> Ingresar edad 1</label>
+            <input type="number" id="edaduno" class="form-control input-sm" [(ngModel)]="this.edaduno" >
+        </div>
+        <div class="form-group">
+            <label> Ingresar edad 2</label><br>
+            <input type="number" id="edaddos" class="form-control input-sm" [(ngModel)]="this.edaddos"><br>
+        </div>
+        <div class="form-group btn-group btn-suma">
+            <input type="button" value="Calcular" class="btn btn-primary" (click)="suma()"> 
+            <input type="button" value="Limpiar" class="btn btn-primary" (click)="clear()">
+        </div>
+
+    <div clas="container">
+        <p>Suma: {{this.resultadosuma}}</p>
+        <p>Promedio: {{this.resultadopromedio}}</p>
+    </div>
+</div>
